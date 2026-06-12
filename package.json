@@ -1,0 +1,17 @@
+{
+  "name": "graduation-project-presentation",
+  "version": "1.0.0",
+  "description": "Graduation Project Presentation: The Impact of Fair Value Accounting on Earnings Persistence",
+  "scripts": {
+    "dev": "npx -y http-server -p 3000"
+  },
+  "keywords": [
+    "presentation",
+    "ifrs-13",
+    "fair-value",
+    "academic",
+    "banking"
+  ],
+  "author": "Mustafa Ezzat",
+  "license": "ISC"
+}
