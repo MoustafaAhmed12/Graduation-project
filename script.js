@@ -148,14 +148,6 @@ document.addEventListener("DOMContentLoaded", () => {
         animateCounters(slide);
         animateProgressBars(slide);
         animateChartBars(slide);
-        
-        // Auto-play videos when slide becomes active
-        videos.forEach((video) => {
-          video.currentTime = 0;
-          video.play().catch((err) => {
-            console.log("Auto-play prevented by browser policy:", err);
-          });
-        });
       } else {
         slide.classList.remove("active");
         // Auto-pause videos when leaving slide
